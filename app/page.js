@@ -46,6 +46,7 @@ export default function Home() {
       <div className="absolute top-1/2 right-64 transform -translate-y-1/2 z-10">
         <BookingEngine />
       </div>
+      
     </div>
   );
 }
