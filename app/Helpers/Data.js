@@ -9,11 +9,6 @@ export const navdData = [
 
 export const RoomCards = [
   {
-    Imgsrc: "/faisalabad.jpeg",
-    name: "Faisalabad",
-    description: "Hotels",
-  },
-  {
     Imgsrc: "/islamabad.jpeg",
     name: "Islamabad",
     description: "Hotels",
@@ -36,6 +31,11 @@ export const RoomCards = [
   {
     Imgsrc: "/multan.jpeg",
     name: "Multan",
+    description: "Hotels",
+  },
+  {
+    Imgsrc: "/faisalabad.jpeg",
+    name: "Faisalabad",
     description: "Hotels",
   },
 ];
