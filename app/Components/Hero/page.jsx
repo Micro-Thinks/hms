@@ -10,7 +10,7 @@ const Page = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 5000); // change image every 5 seconds
+    }, 5000); 
 
     return () => clearInterval(interval);
   }, []);
@@ -32,10 +32,8 @@ const Page = () => {
           <div className="absolute inset-0 bg-black opacity-50"></div>
         </motion.div>
 
-        {/* Fixed content (Navbar, Hero, and BookingEngine) */}
 
-        {/* BookingEngine placed outside the Hero component */}
-        <div className="absolute top-1/2 right-64 transform -translate-y-1/2 z-10">
+        <div className="absolute top-1/2 right-4 lg:right-64 transform -translate-y-1/2 z-10">
           <BookingEngine />
         </div>
       </div>
